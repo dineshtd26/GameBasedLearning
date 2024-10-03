@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    scroll-behavior:smooth ;
+    overflow-x:hidden;
+}
+
+::selection{
+    background-color: cornflowerblue;
+    color: rgb(10, 10, 28);
+}

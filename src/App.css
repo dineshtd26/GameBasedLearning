@@ -1,0 +1,110 @@
+.Nav-Link{
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+.Nav-Link:hover{
+   border-radius: 12px 3px ;
+   background-color: #F7BB0E;
+   color:#0f0a18;
+   border-left: 4px solid red;
+   font-size: 16.5px; 
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 0px;
+    
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(12, 8, 26); 
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color:#291e3cea;
+    border-radius: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2c2734;
+}
+
+
+
+.testcase .blutext {
+    padding-top: 20px;
+    color: rgba(202, 206, 224, 0.74);
+    z-index: -2;
+    position: absolute;
+    top: 5px ;
+    left:  15px;
+    width: 675px;
+    background-color: transparent;
+    height: 380px;
+    position: absolute;
+    text-align: center;
+    color: #9292926d;
+}
+
+
+.testcase .redtext{
+    font-size: larger;
+    font-weight: 500;
+    border: 1px solid #E53E3E;
+    padding-top: 20px;
+    color: rgb(255, 75, 75);
+    z-index: 2;
+    position: absolute;
+    top: 77px;
+    left: 18vw;
+    background-color: rgba(255, 0, 0, 0.249);
+    height:53vh;
+    width:42.5vw;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.emptycom{
+    display: none;
+}
+
+.game-box{
+    overflow: hidden;
+}
+.game{
+    height:53vh;
+    width:42.5vw;
+}
+
+.hint{
+    cursor: pointer;
+    border-radius: 5px;
+   transition: 0.2s ease-in; 
+}
+.hint:hover{
+    background-color: #1b112a;
+    color: aliceblue;
+}
+.error-overlay {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(25, 7, 7); 
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    z-index: 9999; 
+}
+
+.error-message {
+    text-align: center;
+}
+
+.svg{
+    width: 100px;
+}
+
